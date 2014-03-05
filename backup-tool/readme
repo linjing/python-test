@@ -1,0 +1,3 @@
+use `zip` to backup files from `-f` dir to `-b` dir, 
+use config file instead of argment
+
