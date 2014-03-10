@@ -111,6 +111,12 @@ class CaseCheck(unittest.TestCase):
       self.assertRaises(roman.InvalidRomanNumeralError,
           roman.from_roman, numeral.lower())
 
+class MoreCase(unittest.TestCase):
+  def test_emptyStr_Case(self):
+    self.assertRaises(roman.InvalidRomanNumeralError, roman.from_roman, "")
+  def test_notStr_Case(self):
+    self.assertRaises(roman.InvalidRomanNumeralError, roman.from_roman, 1)
+
 if __name__ == "__main__":
   unittest.main()
 

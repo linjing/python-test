@@ -45,7 +45,8 @@ def from_roman(s):
   ''' return 1~3999 integer 
   failed for input not valid roman number in [1~3999] in upper case
   '''
-  if not re.search(romanNumeralPattern, s): raise InvalidRomanNumeralError
+  if not s: raise InvalidRomanNumeralError
+  if not re.search(romanNumeralPattern, str(s)): raise InvalidRomanNumeralError
 
   index = 0
   result = 0
