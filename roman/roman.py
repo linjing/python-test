@@ -38,15 +38,16 @@ def to_roman(n):
   return result
 
 
-romanNumeralPattern = '^M?M?M?(CM|CD|D?C?C?C?)(XC|XL|L?X?X?X?)(IX|IV|V?I?I?I?)$'
 import re
+romanNumeralPattern = '^M?M?M?(CM|CD|D?C?C?C?)(XC|XL|L?X?X?X?)(IX|IV|V?I?I?I?)$'
+compiledPattern = re.compile(romanNumeralPattern)
 
 def from_roman(s):
   ''' return 1~3999 integer 
   failed for input not valid roman number in [1~3999] in upper case
   '''
   if not s: raise InvalidRomanNumeralError
-  if not re.search(romanNumeralPattern, str(s)): raise InvalidRomanNumeralError
+  if not compiledPattern.search(str(s)): raise InvalidRomanNumeralError
 
   index = 0
   result = 0
