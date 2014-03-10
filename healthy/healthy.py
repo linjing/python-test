@@ -47,4 +47,10 @@ def show_bmi_info(func):
 def bmi(weigth, height):
   return 1.0 * weigth / (height ** 2)
 
-bmi(86, 1.72)
+w=86.9
+h=1.72
+a=28
+
+bmi(w, h)
+print consume_cal(w, h, a)
+
