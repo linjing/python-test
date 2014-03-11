@@ -22,6 +22,6 @@ diveintopythonzh
   Chapter 13. 单元测 试 ~17 章
 
 
-Python特殊语法：filter、map、reduce, apply
+Python特殊语法：filter、map、reduce
 yield : 延迟计算
 
