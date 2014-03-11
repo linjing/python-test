@@ -22,6 +22,6 @@ diveintopythonzh
   Chapter 13. 单元测 试 ~17 章
 
 
-Python特殊语法：filter、map、reduce
+Python特殊语法：filter、map、reduce (see help in python command)
 yield : 延迟计算
-
+ http://www.ibm.com/developerworks/cn/opensource/os-cn-python-yield
