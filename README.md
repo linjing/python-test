@@ -25,3 +25,15 @@ diveintopythonzh
 Python特殊语法：filter、map、reduce (see help in python command)
 yield : 延迟计算
  http://www.ibm.com/developerworks/cn/opensource/os-cn-python-yield
+
+with
+from futures import ThreadPoolExecutor
+http://docs.python.org/3.4/library/concurrent.futures.html#module-concurrent.futures
+
+conceptual blockbusting
+http://software.intel.com/zh-cn/search/site/language/zh-hans?query=%E8%B7%9F%E7%87%95%E9%9D%92%E4%B8%80%E8%B5%B7%E5%AD%A6Android%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91
+http://baike.baidu.com/link?url=MIjKOd4_xhUZotrKimmqRbqGY0lXoa8vJNKU7Es6bFpSEB6C6E-Pgvwt7jdsTAO3
+
+http://seals.vobile.cn/trac/Ops/blog/xu_yunfei-20140312.0043
+http://seals.vobile.cn/trac/Ops/blog/xu_yunfei-20140311.1007
+http://seals.vobile.cn/trac/Ops/blog/xu_yunfei-20140311.0725
