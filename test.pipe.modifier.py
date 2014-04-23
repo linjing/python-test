@@ -44,7 +44,7 @@ def echo(x):
 nums = [1,2,3,4, 5, 6]
 too_small_than_x4 = too_small_x(4)
 print 'xxxxxxxxxxxxxxxxxxxx'
-force(nums | too_small_than_x4 | echo)
+force(nums | too_small_x(4) | echo)
 
 def xxyy():
     for i in range(5):
