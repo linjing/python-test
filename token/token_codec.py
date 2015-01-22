@@ -17,6 +17,7 @@ def xor_str (fix, input, length):
     return output
 
 class token_codec:
+    # xor-key,info,expire_time[,align to  16 with ,]digest
     # as I know, md5 digest length is 16.
     align_to = 16
     md5_len = 16
